@@ -23,7 +23,7 @@ const html2canvas = (element: HTMLElement, options: Partial<Options> = {}): Prom
     return renderElement(element, options);
 };
 
-export default html2canvas;
+export = html2canvas;
 
 CacheStorage.setContext(window);
 
